@@ -1,0 +1,33 @@
+@charset "utf8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #fcb0f3, #3d05dd);
+}
+
+main {
+    background-color: #ffff;
+    /*cor de fudo da caixa*/
+    width: 700px;
+    /*"tamanho" da cixa*/
+    padding: 18px;
+    /*diatancia das letras da borda*/
+    margin: auto;
+    /*o pasisionamento centro direita esquerda*/
+    border-radius: 5px;
+    /*arendondamento dos cantos*/
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.531);
+    /*lado baixo espalhamento cor*/
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}

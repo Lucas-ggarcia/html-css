@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agrupamento</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: #5e5e5e;
+        }
+
+        header {
+            background-color: white;
+            margin: 20px 100px;
+            border-radius: 8px;
+        }
+
+        nav {
+            background-color: teal;
+            border-radius: 0px 0px 5px 5px;
+        }
+
+        main {
+            background-color: white;
+            margin: 20px 100px;
+            border-radius: 7px;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-------------------------------------------------------------------------------------------------------------------------------->
+    <!--tags de agrupamento-->
+    <div>é do tipo box-level</div>
+    <span>é do tipo inline</span>
+    <!-----------------------------------------------------gruping-tags semanticas---------------------------------------------------->
+
+    <header> <!--cabesario-->
+        <h1>titulo</h1>
+        <nav> <!--onde deve ficar os links-->
+            <hr>
+            <a href="">links</a>
+            <a href="">links</a>
+        </nav>
+    </header>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------->
+
+    <main> <!--conteudo principal-->
+        <section class="introdução"> <!--seria uma formo de catogorizar o conteudo-->
+            <article>
+                <h2>introdução</h2>
+                <aside> <!--conteudo periferico a teg article-->
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quae sit dolores autem veniam.
+                        Corporis rerum illum praesentium ea magni id quasi eius iure! Voluptates officiis modi quis
+                        dolorem aperiam.</p>
+                </aside>
+            </article>
+            <hr>
+            <article>
+                <h2>introdução</h2>
+                <aside> <!--conteudo periferico a teg article-->
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quae sit dolores autem veniam.
+                        Corporis rerum illum praesentium ea magni id quasi eius iure! Voluptates officiis modi quis
+                        dolorem aperiam.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------->
+
+    <footer> <!--roda pé-->
+        <div>
+            <p>desenvolvido por tararam</p>
+        </div>
+    </footer>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------->
+</body>
+
+</html>

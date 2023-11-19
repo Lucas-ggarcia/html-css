@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linl</title>
+    <style>
+        /*
+         : pseu do class
+         :: pseudo do elemento
+         > filho
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a {
+            color: aqua;
+            /*cor do link*/
+        }
+
+        a:hover {
+            color: brown;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: rgb(0, 128, 9);
+            /*cor que fica pos ter visitado um link*/
+        }
+
+        a:active {
+            color: black;
+            /*efeito ao clicar*/
+        }
+
+        a::after {
+            content: '[link]';
+            /*aparece pos ter usado um link*/
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>linls</h1>
+    <ol>
+        <li><a href="" target="_blank">youtube</a></li>
+        <li><a href="" target="_blank">site de jogos</a></li>
+    </ol>
+</body>
+
+</html>

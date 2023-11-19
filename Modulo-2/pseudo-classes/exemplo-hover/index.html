@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div>p {
+            display: none;
+            /*filho de uma div*/
+        }
+
+        div:hover {
+            color: blue;
+        }
+
+        div:hover>p {
+            display: block;
+            background-color: blue;
+            text-align: center;
+            color: white;
+            width: 120px;
+            height: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>titulo</h1>
+    <div>passe por cima
+        <p>
+            css 3
+        </p>
+        <!--neese exemplo criamos uma exibição de um conteudo que é exibido quando passamos com o cursor por cima -->
+    </div>
+</body>
+
+</html>

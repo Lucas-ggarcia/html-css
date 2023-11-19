@@ -1,0 +1,16 @@
+@charset "utf8";
+
+body {
+    background-color: #3b3b3b;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    color: white;
+}
