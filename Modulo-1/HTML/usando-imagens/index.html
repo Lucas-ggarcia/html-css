@@ -2,31 +2,29 @@
 <img lang="pt-br">
 
 <head>
-    <!--utf-8 protocolo que permiter a asentuação-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--fav ico é o icone que fica na guia-->
+    <!-- fav ico é o icone que fica ao lado do título da guia OBS: deve star no formato .ico -->
     <link rel="ico" type="image/x-icon" href="favicon_io/favicon-16x16.ico">
-    <title>images</title>
+    <title>imagens</title>
 </head>
-<h1 style="text-align: center;">formatos de imagens</h1>
-<hr>
-<!--imagen carregada apartir da intert-->
-<img src="https://as1.ftcdn.net/v2/jpg/01/71/23/44/1000_F_171234433_wW5DziR4twDS4370QV1CpJHHW5Azqa6d.jpg" alt="">
-<!--imagen carregada de forma local-->
-<img src="images/logo.png" alt="">
 
-<h1>imangens responsivas</h1>
+<body>
+    <h1 style="text-align: center;">formatos de imagens</h1>
+    
+    <!-- imagen carregada apartir da internet // no alt é IMPORTANTE mencionar do que se trata a imagem EX: Batata -->
+    <img src="https://as1.ftcdn.net/v2/jpg/01/71/23/44/1000_F_171234433_wW5DziR4twDS4370QV1CpJHHW5Azqa6d.jpg" alt="">
+    
+    <!-- imagen carregada de forma local -->
+    <img src="images/logo.png" alt="">
+    
+    <h1>imangens responsivas</h1>
 
-<picture>
-    <!--menor imagen-->
-    <source media="(max-width:610px )" srcset="images/p.jpg" type="image/jpg">
-    <!--imagen media-->
-    <source media="(max-width:770px )" srcset="images/m.jpg" type="image/jpg">
-    <!--maior imagen-->
-    <img src="images/g.jpg" alt="">
-</picture>
-<!--sim ficou muito feio-->
+    <picture> <!-- troca as imagens de acordo com o tamalho da tela -->
+        <source media="(max-width:610px )" srcset="images/p.jpg" type="image/jpg"> <!-- menor imagen -->
+        <source media="(max-width:770px )" srcset="images/m.jpg" type="image/jpg"> <!-- imagen media -->
+        <img src="images/g.jpg" alt=""> <!-- maior imagen -->
+    </picture>
 </body>
 
 </html>
