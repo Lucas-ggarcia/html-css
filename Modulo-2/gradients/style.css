@@ -1,8 +1,15 @@
 @charset "utf8";
 
+/*
+* {
+    configurações globais da css
+    height: 100%; 
+}
+*/
+
 body {
+    /* 45deg seria graus de rotação */
     background-image: linear-gradient(to right, #fcb0f3, #3d05dd);
-    /*45deg seria graus de rotação / to left right top borro*/
 }
 
 h1,
@@ -10,9 +17,3 @@ p {
     color: white;
     text-align: center;
 }
-
-/*
-    * {
-        height: 100%; configurações globais da css
-    }
-*/
