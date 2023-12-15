@@ -9,18 +9,23 @@ body {
 }
 
 main {
+    /* cor de fudo */
     background-color: #ffff;
-    /*cor de fudo da caixa*/
+
+    /* largura/tamanho" */
     width: 700px;
-    /*"tamanho" da cixa*/
+
+    /* preenchimento */
     padding: 18px;
-    /*diatancia das letras da borda*/
+
+    /* o pasisionamento centro direita esquerda */
     margin: auto;
-    /*o pasisionamento centro direita esquerda*/
+
+    /* arendondamento dos cantos */
     border-radius: 5px;
-    /*arendondamento dos cantos*/
+
+    /* sombra lado > baixo > espalhamento > cor */
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.531);
-    /*lado baixo espalhamento cor*/
 }
 
 h1 {
