@@ -12,8 +12,10 @@ h1 {
 p {
     color: aqua;
 }
-
-/*dando classes a seletores usando ID*/
+/*
+    IDs não podem ser complementados com outro id na mesma linha com CLASS podemos
+*/
+/* usando ID */
 #t1 {
     color: #000;
 }
@@ -23,7 +25,7 @@ p {
     color: #000;
 }
 
-/*dando classes a seletores usando CLASS*/
+/* usando CLASS */
 .ti {
     color: #09aa77;
 }
@@ -32,8 +34,3 @@ p {
     text-align: justify;
     color: #09aa77;
 }
-
-/*
-IDs não podem ser complementados com outro id na mesma linha
-com classes podemos
-*/
