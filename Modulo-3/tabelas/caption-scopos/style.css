@@ -1,0 +1,38 @@
+@charset 'utf-8';
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    background-color: #d3d3d3;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* zebrado em tabela / odd == impár / even == pár */
+tbody>tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+/* odd == 2n -1 // even == 2n  */
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px;
+}
+
+td,
+th {
+    padding: 10px;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #313131;
+    color: #ffffff;
+}

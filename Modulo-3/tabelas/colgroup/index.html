@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colgroup</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.1em;
+        }
+
+        td,th {
+            border: 1px solid black;
+            width: 90px;
+            height: 40px;
+        }
+
+        .nome {
+            background-color: #674a83;
+        }
+
+        .idade {
+            background-color: #2bc4c4;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <!-- de modo simples seria o style das colunas -->
+        <colgroup>
+            <!-- permiter determinar qual coluna queremos editar como cor etc -->
+            <!-- o valor dado no span define quantas colunas receberão tais propriedade -->
+            <col class="nome" span="2">
+            <col class="idade" span="2">
+            <col class="sexo">
+            <col class="prof">
+        </colgroup>
+        <caption>cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fernando</td>
+                <td>32</td>
+                <td>M</td>
+                <td>Engenheiro</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>41</td>
+                <td>F</td>
+                <td>Custureira</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>26</td>
+                <td>M</td>
+                <td>Motoboy</td>
+            </tr>
+            <tr>
+                <td>Marcia</td>
+                <td>25</td>
+                <td>F</td>
+                <td>Enfermeira</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

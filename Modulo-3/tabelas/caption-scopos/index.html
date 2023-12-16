@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- anatonomia de tabelas grandes
+    table
+        Caption
+        thead
+        tbody
+        tfoot
+    -->
+    <table>
+        <!-- caption é um título semantico de uma tabela -->
+        <caption><p>população dos estados</p></caption>
+        <thead>
+            <tr>
+                <!-- Sempre ponha scope 'col' em um th que seja "título" de uma coluna -->
+                <th scope="col" style="width: 300px;">Estado</th>
+                <th scope="col" style="width: 200px;">população</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>44.420.459</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>20.538.718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>16.054.524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14.136.417</td>
+            </tr>
+            <tr>
+                <td>Paraná </td>
+                <td>11.443.208</td>
+            </tr>
+            <tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <!-- neste caso se th estiver em uma linha especifica da tabela ponha-se scope "row"  -->
+                <th scope="row">total de abitantes</th>
+                <td>213.186.652</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

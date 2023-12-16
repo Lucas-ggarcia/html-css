@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td, th{
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+th{
+    background-color: #313131;
+    color: white;
+}

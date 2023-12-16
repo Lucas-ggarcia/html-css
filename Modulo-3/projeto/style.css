@@ -1,0 +1,89 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Hedvig Letters Serif';
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: #556b2f;
+}
+
+header {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header>h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 8vh;
+}
+
+header>p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 3.5vh;
+    padding-left: 30px;
+}
+
+section>p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+section.imagem {
+    background-color: #5151512f;
+    color: #ffffff;
+}
+
+section.imagem>p {
+    width: 400px;
+    background-color: #00000069;
+}
+
+section#img1 {
+    background-image: url(../projeto/imagens/background001.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img2 {
+    background-image: url(../projeto/imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}

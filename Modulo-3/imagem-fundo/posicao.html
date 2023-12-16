@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posição de fundo</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .bloco {
+            border: 2px solid black;
+            border-radius: 5px;
+            width: 1280px;
+            height: 200px;
+            margin: 20px;
+            background-image: url(../imagens/images/wallpaper002.jpg);
+            background-repeat: no-repeat;
+        }
+
+        /* left top exibe o canto esquerdo superior da imagem  */
+        #i1 {
+            background-position: left center;
+        }
+
+        #i2 {
+            background-position: left bottom;
+        }
+
+        #i3 {
+            background-position: right top;
+        }
+
+        #i4 {
+            background-position: left top;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div id="i1" class="bloco"></div>
+        <div id="i2" class="bloco"></div>
+        <div id="i3" class="bloco"></div>
+        <div id="i4" class="bloco"></div>
+    </main>
+</body>
+
+</html>
