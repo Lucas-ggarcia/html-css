@@ -1,6 +1,4 @@
-estenção para descobrir fontes usadas na web é "fontsninja".
+estenção para descobrir fontes usadas na web "fontsninja".
 
 sites para identificar fontes de imagens.
-    watch font is 
-    my fonts
-    fontsquiirrel
+watch font is, my fonts e fontsquiirrel

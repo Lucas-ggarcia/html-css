@@ -1,2 +1,2 @@
-# html-css
- estudos
+# HTML-CSS
+ Repositório voltado para estudos
